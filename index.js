@@ -112,8 +112,9 @@ function cleanTaskInput() {
 
 
 var currentProject;
-
+if (todoList.projects.length >0 || todoList.projects.length ==0) {
 renderProjectList();
+}
 
 function renderProjectList() {
   
